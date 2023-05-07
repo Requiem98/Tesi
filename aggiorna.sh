@@ -35,9 +35,3 @@ done
 git push origin main
 
 read -n1 -r -p "Press any key to continue..."
-
-
-#Token di accesso alla directory: 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
-
-
-#Codice per clonare repository: git clone https://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@github.com/Requiem98/Workspaces.git
