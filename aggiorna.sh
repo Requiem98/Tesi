@@ -6,11 +6,11 @@ pcname=`hostname`
 
 if [ $os == "MINGW64_NT-10.0-19044" ]
 then
-	cd /c/Users/amede/GitHub_projects/Workspaces/
+	cd /c/Users/amede/GitHub_projects/Tesi/
 fi
 
 #Controlla che non ci siano aggiornamenti e poi carica le modifiche fatte nello stage
-git pull origin master
+git pull origin main
 git add *
 
 #Controlla che non siano stati eliminati dei file dalla directory
@@ -32,7 +32,7 @@ for i in $log
 done
 
 #aggiorna la directory
-git push origin master
+git push origin main
 
 read -n1 -r -p "Press any key to continue..."
 
